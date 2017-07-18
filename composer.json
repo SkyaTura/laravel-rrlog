@@ -1,21 +1,21 @@
 {
-    "name": "skyatura/laravel-rrlog",
-    "description": "Request and response log middleware",
-    "type": "package",
-    "authors": [
-        {
-            "name": "Antonio Eduardo (SkyaTura)",
-            "email": "antonio@emiolo.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-        "laravel/framework": "~5.1.12|~5.2.0|~5.3.0|~5.4.0",
-        "php": ">=5.5.9"
-    },
-    "autoload": {
-        "psr-4": {
-            "SkyaTura\\LaravelRRLog\\": "src/"
-        }
+  "name": "skyatura/laravel-rrlog",
+  "description": "Request and response log middleware",
+  "type": "package",
+  "authors": [
+    {
+      "name": "Antonio Eduardo (Skya Tura)",
+      "email": "antonio@skyatura.com.br",
+      "homepage": "http://www.skyatura.com.br/"
     }
+  ],
+  "require": {
+    "laravel/framework": "~5.1.12|~5.2.0|~5.3.0|~5.4.0",
+    "php": ">=5.5.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "SkyaTura\\LaravelRRLog\\": "src/"
+    }
+  }
 }
